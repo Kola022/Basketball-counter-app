@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="counter.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-items">
+            <div id="home-Score">HOME </div>           
+            <div id="scoreEl">0</div>
+            <div><button class="addPoint" onclick="increment1()">+1</button>
+                <button class="addPoint" onclick="increment2()">+2</button>
+                <button class="addPoint" onclick="increment3()">+3</button> 
+            </div>
+            <div><button id="reset-btn" onclick="reset()">RESET</button></div>             
+            
+
+<!--       </div>
+       
+              -->
+        </div>
+        <div class="container-items">
+            <div id="home-Score">GUEST</div>           
+            <div id="guestEl">0</div>
+            <div><button class="addPoint" onclick="incrementG1()">+1</button>
+                <button class="addPoint" onclick="incrementG2()">+2</button>
+                <button class="addPoint" onclick="incrementG3()">+3</button> 
+            </div>
+            <div><button id="reset-btn" onclick="resetGuest()">RESET</button></div>             
+            
+
+<!--       </div>
+       
+              -->
+        </div>
+      
+    </div>
+
+
+    <script src="Basketballcounter.js"></script>
+</body>
+</html>
